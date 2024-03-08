@@ -1,0 +1,123 @@
+body {
+  font-family: sans-serif;
+  margin: 4rem;
+  padding: 10px;
+  background-color: rgb(193, 220, 220);
+  color: black;
+}
+
+.menu {
+  background-image:url('../assets/bgpick.png'); 
+  height: 18rem;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+
+
+.header h1 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+}
+
+h3 {
+  margin-top: 3rem;
+}
+
+ nav{
+  
+  color: hsl(110, 17%, 93%);
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ }
+
+ section{
+  width: 95%;
+  padding: 20px;
+ }
+
+nav  a {
+  color: rgba(247, 248, 250, 0.956)
+  
+ }
+
+
+ nav li{
+    color: white;
+    list-style-type: none ;
+    display: inline;
+    padding-right: 50px;
+    padding-left:50px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+
+  
+ }
+ 
+ nav a:link, nav a:active,nav a:visited,nav a color:white 
+ 
+
+ a:link,a:active,a:visited,a:hover{
+  color: white;
+ }
+
+ h3{
+  color: rgb(5, 5, 11);
+ }
+
+ footer {
+  background-color: #238398;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  margin-top: 10px; /* Margin to align with content */
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-icons {
+  list-style: none;
+  padding: 0;
+
+}
+.footer-icons {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+
+footer {
+  display: flex; /* Use flexbox to control layout */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align items vertically */
+  padding: 20px; /* Add padding as needed */
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.copyright {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
