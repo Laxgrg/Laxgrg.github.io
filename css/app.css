@@ -7,13 +7,12 @@ body {
 }
 
 .menu {
-  background-image:url('../assets/bgpick.png'); 
+  background-image: url('../assets/bgpic.png');
+  background-size: contain;
   height: 18rem;
   font-size: 1.3rem;
   color: #fff;
 }
-
-
 
 .header h1 {
   color: white;
@@ -28,51 +27,48 @@ h3 {
   margin-top: 3rem;
 }
 
- nav{
-  
+nav {
   color: hsl(110, 17%, 93%);
   width: 100%;
   height: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
- }
+}
 
- section{
+section {
   width: 95%;
   padding: 20px;
- }
+}
 
-nav  a {
-  color: rgba(247, 248, 250, 0.956)
-  
- }
+nav a {
+  color: rgba(247, 248, 250, 0.956);
+}
 
-
- nav li{
-    color: white;
-    list-style-type: none ;
-    display: inline;
-    padding-right: 50px;
-    padding-left:50px;
-    margin-left: 100px;
-    margin-right: 100px;
-   
-
-  
- }
- 
- nav a:link, nav a:active,nav a:visited,nav a color:white 
- 
-
- a:link,a:active,a:visited,a:hover{
+nav li {
   color: white;
- }
+  list-style-type: none;
+  display: inline;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
- h3{
+nav a:link,
+nav a:active,
+nav a:visited,
+nav a color:white a:link,
+a:active,
+a:visited,
+a:hover {
+  color: white;
+}
+
+h3 {
   color: rgb(5, 5, 11);
- }
+}
 
- footer {
+footer {
   background-color: #238398;
   color: #fff;
   padding: 10px;
@@ -90,14 +86,11 @@ nav  a {
 .footer-icons {
   list-style: none;
   padding: 0;
-
 }
 .footer-icons {
   display: inline-block;
   margin: 0 10px;
 }
-
-
 
 footer {
   display: flex; /* Use flexbox to control layout */
@@ -120,4 +113,3 @@ footer {
   margin: 0; /* Remove default margin */
   font-size: 14px; /* Adjust font size as needed */
 }
-
